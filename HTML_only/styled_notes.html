@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Zebbylion's page</title>
+    <link rel="stylesheet" href="zebby.css">
+          <title>Zebbylion's page</title>
     </head>
     <body>
 <h1>My HTML notes</h1>
@@ -18,12 +19,14 @@ Web usually contain addresses <strong>http:</strong> or <strong>https:</strong> 
 <p>
 <em>Hypertext</em> are texts that can have references (such as links) to other documents and resources.
 </p>
-<p>
-<em>Markup</em> Are text that have a special meaning. These texts determine how a text in a web page looks like and how it's arranged. Also, <em>Markup</em> can have <strong>references</strong> to include other documents like videos e.t.c
-</p>
+<em>Markup</em> Are texts that have a special meaning.
+<div>
+  These texts determine how a text in a web page looks like and how it's arranged.
+<br> Also, <em>Markup</em> can have <strong>references</strong> to include other documents like videos e.t.c
+</div>
 <p>
 HTML is the <strong>main language</strong> used to write <strong>web pages.</strong>
-</P>
+</p>
 <h2>Web Pages and Servers</h2>
 <p>
 <strong>-</strong> A browser gets <em>web pages</em> by communicating with the <em>servers</em> over the internet.<br><strong> - Servers</strong> are computers that have running programs that give the browser its requests.
@@ -60,14 +63,14 @@ This is the idea of bits of code going inside other bits of codes.
 The layout of a <strong>web page</strong> is determined by the code in the text file
 </p>
 <h2>Markup</h2>
-<p>
+<div>
 Every <strong>element</strong> starts and ends with a tag.<br>The first tag  is known as the <strong><em>opening tag,</em></strong> and the one with a slash  is called a <strong><em>closing tag.</em></strong>
-</p>
+</div>
 <p>
 HTML tags always start with the <strong>(<)</strong> sign and end with a <strong>(>) </strong>tag. These tags are knowns as <em>angle brackets</em>.
 </p>
 <p>
-The <em>words</em> in between the <em>tags</em>, and the <em>tags</em> themselves is known as <strong>element.</strong>
+The <em id="zebbynjau">words</em> in between the <em id="zebbynjau">tags</em>, and the <em id="zebbynjau">tags</em> themselves is known as <strong>element.</strong>
 </p>
 <p>
 Examples of tags are:<br>
@@ -79,7 +82,7 @@ Which means emphasize. It brings out words in italics.
       <strong>
           <li>br</li>
       </strong>
-Which means break. Is a tag used to create a line break/skips to the next line. It is a <em>void tag</em> meaning it does not allow any closing tag.
+Which means break. Is a tag used to create a line break/skips to the next line. It is a <em class="njau">void tag</em> meaning it does not allow any closing tag.
      <strong>
          <li>strong</li>
       </strong>
@@ -87,7 +90,7 @@ Used to make the words bold.
       <strong>
         <li>h1</li>
      </strong>
-It is a header tag used to write headers and runs from <em>h1</em> (largest) to <em>h6</em> (smallest). <strong>h1</strong> is used for the main heading page, while the rest are used for sub-headings. Moreover, if the section comes after the other, we use the same level of heading.
+It is a header tag used to write headers and runs from <em class="njau">h1</em> (largest) to <em class="njau">h6</em> (smallest). <strong>h1</strong> is used for the main heading page, while the rest are used for sub-headings. Moreover, if the section comes after the other, we use the same level of heading.
      <strong>
        <li>mark</li>
      </strong>
@@ -95,24 +98,24 @@ Is used to highlight words.
      <strong>
          <li>p</li>
       </strong>
-Which means <em>paragraph</em>. It separates a piece of text from other texts around it.
+Which means <em class="njau">paragraph</em>. It separates a piece of text from other texts around it.
      <strong>
          <li>sub</li>
      </strong>
-Meaning <em>subscript, </em> Is a tag used to position the words slightly below the other words.
+Meaning <em class="njau">subscript, </em> Is a tag used to position the words slightly below the other words.
      <strong>
        <li>sup</li>
      </strong>
-Meaning <em>superscript</em>, Is a tag that places the words slightly above others.
+Meaning <em class="njau">superscript</em>, Is a tag that places the words slightly above others.
   </ul>
 </p>
 <h2>Nested Elements</h2>
 <p>
 Elements on HTML can go inside other elements following a certain protocol. This means that the some elements must come before other elements when used together.
 </p>
-<p>
+<div>
 The top level elements always comes first, e.g, the paragraph elements and other big divisions. Inside these, there are other small division elements like the <em>em </em>elements.
-</p>
+</div>
 <p>
 These small division elements can also go inside other small division elements. For instance the <em>mark element</em> can go inside an <em>em</em> element and so on.
 </p>
@@ -122,7 +125,13 @@ Elements might be either <em>block</em> or <em>inline</em>
 </p>
 <h3>Block elements</h3>
 <p>
-As the name suggests, block elements are elements that adds a <em>block/invisible</em> box in between texts.<br>Block elements are used for large sections of text, such as paragraphs, headlines, or lists; and also for some other features such as video players and tables.<br>Examples of block elements are:<br>
+As the name suggests, block elements are elements that adds a <em>block/invisible</em> box in between texts.
+<div>
+  Block elements are used for large sections of text, such as paragraphs, headlines, or lists; and also for some other features such as video players and tables.
+  </div>
+<div>
+  Examples of block elements are:
+  </div>
   <ul>
      <li><em><mark>h1</mark></em></li>
      <li><em><mark>p</mark></em></li>
@@ -168,7 +177,9 @@ The <em>ol</em> element meaning <em>odered lists</em> is an element that display
 </p>
 <p>
   <strong>
-    NOTE:<em>The (ol) and the (ul) elements closing tags are necessary and are is a MUST for them to be there.<br>The (li) element closing tags are not necessary.<br>The (p) elements closing tag is not necessary too.</em>
+    <div class="zebbylionnjau">
+      NOTE:<em>The (ol) and the (ul) elements closing tags are necessary and are is a MUST for them to be there.<br>The (li) element closing tags are not necessary.<br>The (p) elements closing tag is not necessary too.</em>
+    </div>
   </strong>
 </p>
 <p>
@@ -268,15 +279,15 @@ The <em>ol</em> element meaning <em>odered lists</em> is an element that display
   <br><em>href</em> only go in the openning tag at the beginning of an element.
   <br>After the <strong>(>)</strong> sign, is the link text which becomes the text that appears on the page.
   <br>Then is the closing tag.
-  <strong><em>The <strong>(a)</strong> element is an <mak>inline element.</mak></em></strong>
+  <strong><em>The <strong>(a)</strong> element is an <mark>inline element.</mark></em></strong>
 </p>
 <h6>A.O.B</h6>
 <p>
-  Check <a href="https://github.com/zebbyG?tab=repositories">my</a> github account.
+  Check <a  href="https://github.com/zebbyG?tab=repositories">my</a> github account.
 </p>
 <h2>Adding Images</h2>
 <p>
-  The element for adding pictures in web browsers is the <stong>img</stong> tag. It works more like the link elements with some important differences.
+  The element for adding pictures in web browsers is the <strong>img</strong> tag. It works more like the link elements with some important differences.
   <br>Unlike the link element that has one attribute(<em>href</em>), the <strong><em>img</em></strong> uses two attributes:
   <ol>
     <li><mark>src</mark></li>
@@ -295,12 +306,12 @@ The <em>ol</em> element meaning <em>odered lists</em> is an element that display
 <p>
 This is the text that appears incase the image wasn't found in the <strong>source (src)</strong> or if it cannot display the image.
 </p>
-<p>
+<div class="zebbylionnjau">
   <strong>NB:</strong><em>Putting an</em> img <em>element in the HTML file doesn't copy the image, it tells the browser where to find that image file</em>(source)<em> and display it.</em>
-  <br><em>The source might be your local disk or on a server</em>.
-  <br><em>The <strong>img</strong> element is a void element</em>.
-  <br><em>It is an inline element</em>.
-</p>
+  <em>The source might be your local disk or on a server</em>.
+  <em>The <strong>img</strong> element is a void element</em>.
+  <em>It is an inline element</em>.
+</div>
 <h2>Documents: The DOCTYPE Tag</h2>
 <p>
   It is used to indicate what type of HTML is being used.
@@ -314,16 +325,17 @@ This is the text that appears incase the image wasn't found in the <strong>sourc
 </p>
 <h3>Documents: Head and Body</h3>
 <h4>The Head</h4>
-<p>
+<div>
  The <em>head</em> is where we put certain pieces of important information about the document.
- <br>The <em>title</em> is the only required part of the head. It tells the browser what title to put on a tab that displays the document.
- <br>The title is written inside openning and closing tags of the title element.
-</p>
-<p>
+ The <em>title</em> is the only required part of the head.
+ <br>It tells the browser what title to put on a tab that displays the document.
+ The title is written inside openning and closing tags of the title element.
+</div>
+<div>
   The <em>style sheets</em> also appear in the head. This tells the browser what fonts and colors to display in the browser and how to position the text.
-  <br>The head can also contain <strong><em>scripts</em></strong> which are <em>programs that run in the browser</em>.
+<br>The head can also contain <strong><em>scripts</em></strong> which are <em>programs that run in the browser</em>.
   This is used in <em>front-end</em> web apps.
-</p>
+</div>
 <p>
   It also contains <strong><em>metadata</em></strong> which is <em>the other information about the page</em>, e.g, keywords for search engines.
   <br>The HTML tag can be added some characters which is the language your document is written in.(<em>human language</em>).
@@ -333,6 +345,29 @@ This is the text that appears incase the image wasn't found in the <strong>sourc
   This where the contents go, the paragraphs, images and all of that.
 </p>
 <h6>A.O.B</h6>
-<strong><mark>My favourite animal is a </mark></strong> <img src="file:///C:/Users/Zebbylion/Desktop/personal_projects/html_projects/+254%20773%20253606%2020220524_164647.jpg" alt="lion">
+<strong><mark>My favourite animal is a </mark></strong> <img class="zebby" src="file:///C:/Users/Zebbylion/Desktop/personal_projects/html_projects/+254%20773%20253606%2020220524_164647.jpg" alt="lion">
+<h5>cascading style sheets links</h5>
+<p>
+  More of CSS properties.
+</p>
+<a id="zebbynjau" href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">MDN CSS</a> reference here.
+<p>
+  <a id="zebbynjau" href="https://science.howstuffworks.com/primary-colors.htm">More</a> about primary colors and how they work.
+</p>
+<p>
+  <strong>HSL</strong> colors(<em>Hue Saturation </em>and <em>lighting</em>).
+  <br><a id="zebbynjau" href="https://www.w3schools.com/colors/colors_hsl.asp">More</a> about them.
+</p>
+<p>
+ There is a Hex value for every particular color.
+ <br><a id="zebbynjau" href="https://www.w3schools.com/colors/colors_picker.asp">Color picker</a> to find out different hex and their colors.
+</p>
+<p>
+<a id="zebbynjau" href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-family">e MDN Web Docs on the font-family property.</a>
+</p>
+<p>
+  <a id="zebbynjau" href="https://www.cssfontstack.com/">cssfontstack.com.</a>
+</p>
+<a id="zebbynjau" href="https://fonts.google.com/">ALL FONTS</a>
 </body>
 </html>
