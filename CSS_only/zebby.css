@@ -64,7 +64,7 @@ body { font-family: cursive;}
 
 .zebby { width: 250px;}
 
-#zebbynjau { font-size: 25pt;}
+#zebbynjau { font-size: 20pt;}
 
 .njauzebby {
   border: 6px solid orange;
@@ -85,5 +85,4 @@ body { font-family: cursive;}
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-
 }
