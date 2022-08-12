@@ -62,7 +62,7 @@ body { font-family: cursive;}
 
 .njau {text-decoration: underline;}
 
-.zebby { width: 150px;}
+.zebby { width: 250px;}
 
 #zebbynjau { font-size: 25pt;}
 
@@ -79,4 +79,11 @@ body { font-family: cursive;}
   width: 400px;
   height: 200px;
   padding: 0.8em;
+}
+
+.pics {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+
 }
