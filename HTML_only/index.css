@@ -1,0 +1,89 @@
+body {
+    background-color: rgba(187, 222, 243, 0.829);
+  }
+  
+  p { width: 50%;
+  
+  }
+  
+  li {
+    color: blue;
+    text-align: left;
+    }
+  
+  h1 {
+    color: black;
+    font-family: Helvetica;
+    font-family: impact;
+    font-size: 40pt;
+    font-style: bold;
+    text-decoration: underline;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: red;
+    font-family: "Times New Roman";
+     font-size:30px;
+     text-decoration: underline;
+    }
+  
+  h3 {
+    color: green;
+    text-decoration: underline;
+  }
+  
+  h4 {
+    color: orange;
+    text-decoration: underline;
+  }
+  
+  h5 {
+    font-size: 50px;
+    text-decoration: underline;
+    font-variant: small-caps;
+  }
+  
+  h6 {
+    color:  rgb(194, 11, 250);
+    text-decoration: underline;
+  }
+  
+  em {
+    color: purple;
+    font-size: 15pt;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  body { font-family: cursive;}
+  
+  .zebbylion { background-color: maroon;}
+  
+  .njau {text-decoration: underline;}
+  
+  .zebby { width: 250px;}
+  
+  #zebbynjau { font-size: 20pt;}
+  
+  .njauzebby {
+    border: 6px solid orange;
+    margin: 1.1em;
+    padding: 0.6em;
+    width: 500px;
+    height: 70px;
+    float: center;
+  }
+  .zebbylionnjau {
+    border: 10px solid black;
+    width: 400px;
+    height: 200px;
+    padding: 0.8em;
+  }
+  
+  .pics {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
